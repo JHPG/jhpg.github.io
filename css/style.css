@@ -8458,6 +8458,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
           width: 60%;
           position: relative;
+          /* background-size: contain; */
           z-index: -1; }
           .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
             position: absolute;
@@ -8768,6 +8769,7 @@ h1, h2, h3, h4, h5,
     display: block;
     width: 100%;
     position: relative;
+    /* background-size: contain; */
     z-index: 1; }
 
 .ftco-about ul.about-info {
