@@ -1,7 +1,10 @@
- AOS.init({
- 	duration: 800,
+var conterDuration = 2000;
+var carouselAutoplayTime = 4000;
+ 
+AOS.init({
+	duration: 800,
  	easing: 'slide'
- });
+});
 
 (function($) {
 
@@ -92,7 +95,7 @@
 	    animateIn: 'fadeIn',
 	    nav:false,
 	    autoplayHoverPause: false,
-		autoplayTimeout: 4000,
+		autoplayTimeout: carouselAutoplayTime,
 	    items: 1,
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
 	    responsive:{
@@ -191,7 +194,7 @@
 					  {
 					    number: num,
 					    numberStep: comma_separator_number_step
-					  }, 7000
+					  }, conterDuration
 					);
 				});
 				
