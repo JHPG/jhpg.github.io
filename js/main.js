@@ -1,5 +1,5 @@
 var conterDuration = 2000;
-var carouselAutoplayTime = 4000;
+var carouselAutoplayTime = 5000;
  
 AOS.init({
 	duration: 800,
