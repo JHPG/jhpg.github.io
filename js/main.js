@@ -2,7 +2,7 @@ var conterDuration = 2000;
 var carouselAutoplayTime = 5000;
  
 AOS.init({
-	duration: 800,
+	duration: 1000,
  	easing: 'slide'
 });
 
@@ -132,7 +132,7 @@ AOS.init({
 
 
 	$('#dropdown04').on('show.bs.dropdown', function () {
-	  console.log('show');
+	  //console.log('show');
 	});
 
 	// scroll
@@ -187,7 +187,7 @@ AOS.init({
 				$('.number').each(function(){
 					var $this = $(this),
 						num = $this.data('number');
-						console.log(num);
+						//console.log(num);
 					$this.animateNumber(
 					  {
 					    number: num,
